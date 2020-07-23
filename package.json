@@ -1,0 +1,18 @@
+{
+	"name": "buysell",
+	"version": "1.0.0",
+	"description": "",
+	"main": "tronbox-config.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "sol-merger \"./contracts/*.sol\" ./build/dist"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"sol-merger": "^3.1.0"
+	}
+}

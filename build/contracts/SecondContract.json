@@ -1,0 +1,119 @@
+{
+  "contractName": "SecondContract",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50d38015601b57600080fd5b50d28015602757600080fd5b50603d8060356000396000f3fe6080604052600080fdfea26474726f6e582049c7a2a9aafdff58d7e38ab23780d06f62c1612576c781bf965b4a53a701d64f64736f6c634300050a0031",
+  "deployedBytecode": "0x6080604052600080fdfea26474726f6e582049c7a2a9aafdff58d7e38ab23780d06f62c1612576c781bf965b4a53a701d64f64736f6c634300050a0031",
+  "sourceMap": "61:26:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:26:1;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:26:1;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:26:1;;;;;;;",
+  "deployedSourceMap": "61:26:1:-;;;;;",
+  "source": "pragma solidity ^0.5.10;\r\n\r\nimport \"./FirstContract.sol\";\r\n\r\ncontract SecondContract {}\r\n",
+  "sourcePath": "D:/work/projects/BUYSELL/contracts/SecondContract.sol",
+  "ast": {
+    "absolutePath": "/D/work/projects/BUYSELL/contracts/SecondContract.sol",
+    "exportedSymbols": {
+      "SecondContract": [
+        578
+      ]
+    },
+    "id": 579,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 576,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "absolutePath": "/D/work/projects/BUYSELL/contracts/FirstContract.sol",
+        "file": "./FirstContract.sol",
+        "id": 577,
+        "nodeType": "ImportDirective",
+        "scope": 579,
+        "sourceUnit": 575,
+        "src": "28:29:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 578,
+        "linearizedBaseContracts": [
+          578
+        ],
+        "name": "SecondContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 579,
+        "src": "61:26:1"
+      }
+    ],
+    "src": "0:89:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/work/projects/BUYSELL/contracts/SecondContract.sol",
+    "exportedSymbols": {
+      "SecondContract": [
+        578
+      ]
+    },
+    "id": 579,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 576,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "absolutePath": "/D/work/projects/BUYSELL/contracts/FirstContract.sol",
+        "file": "./FirstContract.sol",
+        "id": 577,
+        "nodeType": "ImportDirective",
+        "scope": 579,
+        "sourceUnit": 575,
+        "src": "28:29:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 578,
+        "linearizedBaseContracts": [
+          578
+        ],
+        "name": "SecondContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 579,
+        "src": "61:26:1"
+      }
+    ],
+    "src": "0:89:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.10+commit.a1d534ef.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2020-07-23T12:01:56.149Z"
+}
